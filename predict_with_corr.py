@@ -45,8 +45,8 @@ def grade_to_z(grade):
 
 def mt1_zscore(raw_score):
     # Updated 4/5/22
-    mean = 132.72
-    std = 39.01
+    mean = 102.09
+    std = 36.73
     return (raw_score - mean)/std
 
 def avg_std(score1, score2):
